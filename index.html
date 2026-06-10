@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Cristal | Opticiens d'Exception & Créations sur-mesure</title>
+    <meta name="description" content="Découvrez Maison Cristal, votre opticien de confiance. Examens de vue de haute précision, sélection de montures de créateurs et conseils en visagisme personnalisé.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Header / Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 100 100" width="30" height="30">
+                        <circle cx="35" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="6"/>
+                        <circle cx="65" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="6"/>
+                        <line x1="45" y1="50" x2="55" y2="50" stroke="currentColor" stroke-width="6"/>
+                    </svg>
+                </span>
+                <span class="logo-text">Maison <span class="accent-text">Cristal</span></span>
+            </a>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                    <li><a href="#concept" class="nav-link">Expertise</a></li>
+                    <li><a href="#collections" class="nav-link">Collections</a></li>
+                    <li><a href="#equipe" class="nav-link">L'Équipe</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">Prendre RDV</a>
+                <button class="mobile-menu-toggle" aria-label="Ouvrir le menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav">
+        <div class="mobile-nav-content">
+            <ul>
+                <li><a href="#accueil" class="mobile-link">Accueil</a></li>
+                <li><a href="#concept" class="mobile-link">Expertise</a></li>
+                <li><a href="#collections" class="mobile-link">Collections</a></li>
+                <li><a href="#equipe" class="mobile-link">L'Équipe</a></li>
+                <li><a href="#contact" class="mobile-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary mobile-cta">Prendre Rendez-vous</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="accueil" class="hero-section">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content reveal-fade-left">
+                    <div class="badge">Optométrie & Visagisme</div>
+                    <h1 class="hero-title">L'art de voir,<br>le style en <span class="gradient-text">plus.</span></h1>
+                    <p class="hero-description">
+                        Maison Cristal allie examens cliniques de haute précision et une sélection rigoureuse de montures de créateurs. Entrez dans un monde où votre confort visuel rencontre votre signature esthétique.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Prendre rendez-vous</a>
+                        <a href="#collections" class="btn btn-outline">Découvrir les collections</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Sur-mesure</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Créateurs exclusifs</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">0.01mm</span>
+                            <span class="stat-label">Précision de centrage</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-fade-right">
+                    <div class="image-wrapper glass-panel">
+                        <img src="images/boutique.png" alt="Intérieur de la boutique Maison Cristal" class="hero-img">
+                        <div class="glass-tag tag-top">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                            </svg>
+                            <span>Conseils Visagisme 1-to-1</span>
+                        </div>
+                        <div class="glass-tag tag-bottom">
+                            <span class="tag-pulse"></span>
+                            <span>Atelier de fabrication local</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+                <span class="scroll-text">Faire défiler</span>
+            </div>
+        </section>
+
+        <!-- Section Concept & Expertise -->
+        <section id="concept" class="concept-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-up">
+                    <h2 class="section-title">Notre Expertise</h2>
+                    <p class="section-subtitle">Chaque regard est unique. Nous combinons technologie médicale de pointe et passion du design pour sublimer votre vision.</p>
+                </div>
+
+                <div class="grid-3">
+                    <!-- Card 1 -->
+                    <div class="card glass-card reveal-fade-up delay-1">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" stroke-width="1.5" fill="none">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M3 12h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m11.4 0l-.7.7m0 11.4l.7.7m-11.4 0l-.7-.7"/>
+                                <path d="M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Examen de Vue Clinique</h3>
+                        <p class="card-description">
+                            Grâce à nos équipements d'optométrie de dernière génération, nous analysons votre réfraction et votre santé visuelle avec une précision inégalée.
+                        </p>
+                        <ul class="card-list">
+                            <li>Topographie cornéenne</li>
+                            <li>Dépistage précoce</li>
+                            <li>Bilan d'adaptation lentilles</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card glass-card reveal-fade-up delay-2">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" stroke-width="1.5" fill="none">
+                                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Conseil Visagisme</h3>
+                        <p class="card-description">
+                            Trouvez la monture qui reflète votre personnalité. Notre styliste visagiste étudie la morphologie de votre visage et votre teint pour une harmonie parfaite.
+                        </p>
+                        <ul class="card-list">
+                            <li>Analyse morphologique</li>
+                            <li>Colorimétrie personnalisée</li>
+                            <li>Harmonisation style & morpho</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card glass-card reveal-fade-up delay-3">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" stroke-width="1.5" fill="none">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 2.17l-5.63 5.63a3.5 3.5 0 0 0 4.95 4.95l5.63-5.63a6 6 0 0 1 2.17-7.94l-3.77 3.77z"/>
+                                <path d="m8 14-6 6M9 9l-4 4"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Atelier de Haute Précision</h3>
+                        <p class="card-description">
+                            Toutes nos montures sont taillées, assemblées et centrées au dixième de millimètre dans notre propre atelier. La garantie d'une finition parfaite.
+                        </p>
+                        <ul class="card-list">
+                            <li>Taillage numérique robotisé</li>
+                            <li>Verres origine France certifiée</li>
+                            <li>Ajustement morphologique sur-mesure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Showroom / Collections (Interactive Frame Gallery) -->
+        <section id="collections" class="showroom-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-up">
+                    <h2 class="section-title">Nos Collections</h2>
+                    <p class="section-subtitle">Sélection exclusive de créateurs mondiaux, façonnée dans des matériaux nobles : acétate de coton bio, titane japonais, or fin.</p>
+                </div>
+
+                <div class="showroom-container reveal-fade-up">
+                    <!-- Filters -->
+                    <div class="showroom-filters">
+                        <button class="filter-btn active" data-style="pantos">Le Pantos (Rétro-Chic)</button>
+                        <button class="filter-btn" data-style="aviator">L'Aviateur (Intemporel)</button>
+                        <button class="filter-btn" data-style="cateye">Le Cat-Eye (Audacieux)</button>
+                        <button class="filter-btn" data-style="square">Le Carré (Minimaliste)</button>
+                    </div>
+
+                    <!-- Interactive Showcase Box -->
+                    <div class="showroom-display glass-card">
+                        <div class="showroom-interactive">
+                            <!-- Frame Model Visualizer (rendered dynamically / CSS-styled SVGs) -->
+                            <div class="frame-canvas-wrapper">
+                                <div class="frame-backdrop-glow"></div>
+                                <div class="frame-render active" id="frame-pantos">
+                                    <svg viewBox="0 0 400 200" width="100%" height="100%">
+                                        <!-- Left Temple -->
+                                        <path d="M 40 85 C 15 85, 5 70, 0 30" fill="none" stroke="var(--primary)" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+                                        <!-- Right Temple -->
+                                        <path d="M 360 85 C 385 85, 395 70, 400 30" fill="none" stroke="var(--primary)" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+                                        <!-- Left Rim (Chic Rounded Pantos) -->
+                                        <path d="M 60 90 C 60 40, 150 40, 150 90 C 150 140, 60 140, 60 90 Z" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linejoin="round"/>
+                                        <path d="M 64 90 C 64 45, 146 45, 146 90 C 146 135, 64 135, 64 90 Z" fill="rgba(20, 184, 166, 0.15)" stroke="var(--accent)" stroke-width="2"/>
+                                        <!-- Right Rim -->
+                                        <path d="M 250 90 C 250 40, 340 40, 340 90 C 340 140, 250 140, 250 90 Z" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linejoin="round"/>
+                                        <path d="M 254 90 C 254 45, 336 45, 336 90 C 336 135, 254 135, 254 90 Z" fill="rgba(20, 184, 166, 0.15)" stroke="var(--accent)" stroke-width="2"/>
+                                        <!-- Bridge -->
+                                        <path d="M 150 78 C 175 62, 225 62, 250 78" fill="none" stroke="var(--primary)" stroke-width="10"/>
+                                        <!-- Accents (End Pieces) -->
+                                        <circle cx="50" cy="80" r="3" fill="var(--text-light)"/>
+                                        <circle cx="350" cy="80" r="3" fill="var(--text-light)"/>
+                                    </svg>
+                                </div>
+                                <div class="frame-render" id="frame-aviator">
+                                    <svg viewBox="0 0 400 200" width="100%" height="100%">
+                                        <!-- Left Temple -->
+                                        <path d="M 40 85 C 15 85, 5 70, 0 30" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+                                        <!-- Right Temple -->
+                                        <path d="M 360 85 C 385 85, 395 70, 400 30" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+                                        <!-- Left Rim (Teardrop Aviator) -->
+                                        <path d="M 60 75 C 60 45, 150 45, 150 75 C 150 100, 125 155, 90 155 C 65 155, 60 115, 60 75 Z" fill="none" stroke="#d1d5db" stroke-width="6"/>
+                                        <path d="M 63 75 C 63 48, 147 48, 147 75 C 147 98, 123 152, 90 152 C 67 152, 63 113, 63 75 Z" fill="rgba(20, 184, 166, 0.1)" stroke="var(--accent)" stroke-width="1.5"/>
+                                        <!-- Right Rim -->
+                                        <path d="M 250 75 C 250 45, 340 45, 340 75 C 340 115, 335 155, 310 155 C 275 155, 250 100, 250 75 Z" fill="none" stroke="#d1d5db" stroke-width="6"/>
+                                        <path d="M 253 75 C 253 48, 337 48, 337 75 C 337 113, 333 152, 310 152 C 277 152, 253 98, 253 75 Z" fill="rgba(20, 184, 166, 0.1)" stroke="var(--accent)" stroke-width="1.5"/>
+                                        <!-- Double Bridge -->
+                                        <path d="M 150 70 L 250 70" fill="none" stroke="#d1d5db" stroke-width="5"/>
+                                        <path d="M 153 52 C 175 45, 225 45, 247 52" fill="none" stroke="#d1d5db" stroke-width="3"/>
+                                    </svg>
+                                </div>
+                                <div class="frame-render" id="frame-cateye">
+                                    <svg viewBox="0 0 400 200" width="100%" height="100%">
+                                        <!-- Left Temple -->
+                                        <path d="M 40 85 C 15 85, 5 70, 0 30" fill="none" stroke="var(--primary)" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+                                        <!-- Right Temple -->
+                                        <path d="M 360 85 C 385 85, 395 70, 400 30" fill="none" stroke="var(--primary)" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+                                        <!-- Left Rim (Feline Cat Eye) -->
+                                        <path d="M 45 60 C 50 25, 155 50, 155 85 C 155 130, 75 130, 60 100 C 50 80, 40 70, 45 60 Z" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linejoin="round"/>
+                                        <path d="M 49 61 C 53 30, 151 52, 151 85 C 151 125, 77 125, 63 97 C 53 78, 45 70, 49 61 Z" fill="rgba(20, 184, 166, 0.2)" stroke="var(--accent)" stroke-width="2"/>
+                                        <!-- Right Rim -->
+                                        <path d="M 355 60 C 350 25, 245 50, 245 85 C 245 130, 325 130, 340 100 C 350 80, 360 70, 355 60 Z" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linejoin="round"/>
+                                        <path d="M 351 61 C 347 30, 249 52, 249 85 C 249 125, 323 125, 337 97 C 347 78, 355 70, 351 61 Z" fill="rgba(20, 184, 166, 0.2)" stroke="var(--accent)" stroke-width="2"/>
+                                        <!-- Bridge -->
+                                        <path d="M 155 80 C 175 65, 225 65, 245 80" fill="none" stroke="var(--primary)" stroke-width="8"/>
+                                    </svg>
+                                </div>
+                                <div class="frame-render" id="frame-square">
+                                    <svg viewBox="0 0 400 200" width="100%" height="100%">
+                                        <!-- Left Temple -->
+                                        <path d="M 40 85 C 15 85, 5 70, 0 30" fill="none" stroke="var(--primary)" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+                                        <!-- Right Temple -->
+                                        <path d="M 360 85 C 385 85, 395 70, 400 30" fill="none" stroke="var(--primary)" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+                                        <!-- Left Rim (Bold Minimalist Square) -->
+                                        <path d="M 60 55 L 150 55 L 150 125 L 60 125 Z" fill="none" stroke="var(--primary)" stroke-width="14" stroke-linejoin="round"/>
+                                        <path d="M 65 60 L 145 60 L 145 120 L 65 120 Z" fill="rgba(20, 184, 166, 0.12)" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/>
+                                        <!-- Right Rim -->
+                                        <path d="M 250 55 L 340 55 L 340 125 L 250 125 Z" fill="none" stroke="var(--primary)" stroke-width="14" stroke-linejoin="round"/>
+                                        <path d="M 255 60 L 335 60 L 335 120 L 255 120 Z" fill="rgba(20, 184, 166, 0.12)" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/>
+                                        <!-- Bridge -->
+                                        <path d="M 150 70 L 250 70" fill="none" stroke="var(--primary)" stroke-width="10"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Dynamic details panel -->
+                        <div class="showroom-details">
+                            <h3 class="showroom-title" id="showroom-title">Le Pantos Acetate</h3>
+                            <p class="showroom-subtitle-small">Modèle : Signature N°01</p>
+                            <p class="showroom-desc" id="showroom-desc">
+                                Né dans les années 1930, le style Pantos associe des lignes rondes et ovales dans une architecture néo-rétro équilibrée. Réalisé ici en acétate de coton biologique poli à la main, il s'adapte à tous les visages en y apportant une touche de distinction intellectuelle et intemporelle.
+                            </p>
+                            
+                            <div class="showroom-attributes">
+                                <div class="attribute-item">
+                                    <span class="attr-name">Matière</span>
+                                    <span class="attr-val" id="showroom-material">Acétate bio-sourcé</span>
+                                </div>
+                                <div class="attribute-item">
+                                    <span class="attr-name">Couleurs dispo.</span>
+                                    <span class="attr-val">Écaille, Noir Onyx, Ambre</span>
+                                </div>
+                                <div class="attribute-item">
+                                    <span class="attr-name">Idéal pour</span>
+                                    <span class="attr-val" id="showroom-fit">Visages anguleux et ovales</span>
+                                </div>
+                            </div>
+                            
+                            <a href="#contact" class="btn btn-primary btn-block">Essayer en boutique</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Équipe -->
+        <section id="equipe" class="team-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-up">
+                    <h2 class="section-title">Vos Opticiens</h2>
+                    <p class="section-subtitle">Une équipe d'optométristes et de visagistes qualifiés pour vous garantir un suivi médical rigoureux et un conseil esthétique pointu.</p>
+                </div>
+
+                <div class="grid-3">
+                    <!-- Member 1 -->
+                    <div class="team-card glass-panel reveal-fade-up delay-1">
+                        <div class="member-image-wrapper">
+                            <img src="images/team_director.png" alt="Jean-Marc Aubert, Opticien Optométriste & Directeur" class="member-img">
+                            <div class="member-overlay">
+                                <p class="member-bio">« Une bonne vision est la base de notre bien-être. J'associe 15 ans d'expérience clinique aux technologies de pointe pour vous apporter le meilleur confort. »</p>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">Jean-Marc Aubert</h3>
+                            <p class="member-role">Directeur & Optométriste Principal</p>
+                            <span class="member-qualification">Diplômé de l'Institut d'Optométrie</span>
+                        </div>
+                    </div>
+
+                    <!-- Member 2 -->
+                    <div class="team-card glass-panel reveal-fade-up delay-2">
+                        <div class="member-image-wrapper">
+                            <img src="images/team_stylist.png" alt="Émilie Vasseur, Styliste Visagiste" class="member-img">
+                            <div class="member-overlay">
+                                <p class="member-bio">« Vos lunettes signent votre visage. Mon objectif est de trouver la monture magique, celle qui révèle votre caractère et illumine votre style naturel. »</p>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">Émilie Vasseur</h3>
+                            <p class="member-role">Conseillère Visagiste & Style</p>
+                            <span class="member-qualification">Spécialiste en Colorimétrie & Design</span>
+                        </div>
+                    </div>
+
+                    <!-- Member 3 -->
+                    <div class="team-card glass-panel reveal-fade-up delay-3">
+                        <div class="member-image-wrapper">
+                            <img src="images/team_technician.png" alt="Thomas Lenoir, Artisan Opticien & Expert Atelier" class="member-img">
+                            <div class="member-overlay">
+                                <p class="member-bio">« Tailler et centrer un verre est un art de haute précision. Je veille à ce que chaque montage soit un chef-d'œuvre de technique et de durabilité. »</p>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">Thomas Lenoir</h3>
+                            <p class="member-role">Expert Atelier de Montage</p>
+                            <span class="member-qualification">Maître Compagnon Opticien-Lunetier</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact & Booking -->
+        <section id="contact" class="booking-section section-padding">
+            <div class="booking-bg-glow"></div>
+            <div class="container booking-container">
+                <div class="booking-info reveal-fade-left">
+                    <div class="badge badge-accent">Prendre Rendez-vous</div>
+                    <h2 class="booking-title">Planifiez votre visite sur-mesure</h2>
+                    <p class="booking-text">
+                        Nous vous accueillons individuellement pour vous accorder toute notre attention. Choisissez un créneau pour un examen de vue complet ou une séance personnalisée avec notre styliste visagiste.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p><a href="tel:+33140200000" class="hover-link">01 40 20 00 00</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>12 Place des Vosges, 75004 Paris</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Horaires d'ouverture</h4>
+                                <p>Mardi – Samedi : 10h00 – 19h00 (Sur RDV)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-form-wrapper glass-panel reveal-fade-right">
+                    <form id="appointment-form" class="booking-form">
+                        <div class="form-group">
+                            <label for="form-name">Nom complet</label>
+                            <input type="text" id="form-name" required placeholder="Jean Dupont">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Adresse e-mail</label>
+                            <input type="email" id="form-email" required placeholder="jean.dupont@exemple.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-service">Motif de consultation</label>
+                                <select id="form-service" required>
+                                    <option value="" disabled selected>Sélectionnez un motif</option>
+                                    <option value="examen">Examen de vue de haute précision</option>
+                                    <option value="visagisme">Conseil visagisme & Nouveaux verres</option>
+                                    <option value="adaptation">Contrôle & Adaptation Lentilles</option>
+                                    <option value="ajustement">Ajustement & Réparation monture</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-date">Date souhaitée</label>
+                                <input type="date" id="form-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-time">Créneau</label>
+                                <select id="form-time" required>
+                                    <option value="" disabled selected>Choisir une heure</option>
+                                    <option value="matin-1">10:00 – 11:30</option>
+                                    <option value="matin-2">11:30 – 13:00</option>
+                                    <option value="aprem-1">14:00 – 15:30</option>
+                                    <option value="aprem-2">15:30 – 17:00</option>
+                                    <option value="soir">17:00 – 18:30</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Valider ma demande de RDV</button>
+                        <div class="form-status" id="form-status-msg"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-icon">
+                        <svg viewBox="0 0 100 100" width="30" height="30">
+                            <circle cx="35" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="6"/>
+                            <circle cx="65" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="6"/>
+                            <line x1="45" y1="50" x2="55" y2="50" stroke="currentColor" stroke-width="6"/>
+                        </svg>
+                    </span>
+                    <span class="logo-text">Maison <span class="accent-text">Cristal</span></span>
+                </a>
+                <p class="footer-desc">
+                    L'excellence visuelle alliée au design intemporel. Cabinet d'optométrie haut de gamme et lunetier créateur à Paris.
+                </p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#concept">Notre Expertise</a></li>
+                    <li><a href="#collections">Nos Collections</a></li>
+                    <li><a href="#equipe">L'Équipe</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-legal">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="#">Mentions Légales</a></li>
+                    <li><a href="#">Politique de Confidentialité</a></li>
+                    <li><a href="#">Gestion des Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 Maison Cristal. Tous droits réservés.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
